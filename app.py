@@ -1,12 +1,8 @@
-import os
 import board
 import busio
 import adafruit_sht31d
 from flask import Flask, jsonify
 from flask_cors import CORS
-from dotenv import load_dotenv
-
-load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
